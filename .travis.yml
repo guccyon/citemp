@@ -1,0 +1,13 @@
+language: objective-c
+
+cache:
+  bundler: true
+  directories:
+  - Pods
+
+before_install:
+ - gem install cocoapods -r
+ - pod setup
+
+script:
+  - make
