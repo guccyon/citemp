@@ -16,6 +16,10 @@ describe(@"ViewController", ^{
     it(@"", ^{
         [[theValue(2) should] equal:theValue(3)];
     });
+    
+    it(@"", ^{
+        [[theValue(4) should] equal:theValue(3)];
+    });
 });
 
 SPEC_END
