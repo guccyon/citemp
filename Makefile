@@ -14,14 +14,12 @@ build:
 	xctool \
 		-workspace ${WORKSPACE} \
 		-scheme ${SCHEME} \
-		build \
-		-sdk iphonesimulator
+		-sdk iphonesimulator \
+		build
 
 test:
 	xctool \
 		-workspace ${WORKSPACE} \
 		-scheme ${SCHEME} \
 		-sdk iphonesimulator \
-		test
-		-test-sdk iphonesimulator
-		-parallelize
+		test -parallelize

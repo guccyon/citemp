@@ -23,7 +23,6 @@
 		9F51007618BEE3CB0070104D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F51005218BEE3CB0070104D /* Foundation.framework */; };
 		9F51007718BEE3CB0070104D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F51005618BEE3CB0070104D /* UIKit.framework */; };
 		9F51007F18BEE3CB0070104D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F51007D18BEE3CB0070104D /* InfoPlist.strings */; };
-		9F51008118BEE3CB0070104D /* citempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51008018BEE3CB0070104D /* citempTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		9F51007418BEE3CB0070104D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9F51007C18BEE3CB0070104D /* citempTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "citempTests-Info.plist"; sourceTree = "<group>"; };
 		9F51007E18BEE3CB0070104D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9F51008018BEE3CB0070104D /* citempTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = citempTests.m; sourceTree = "<group>"; };
 		AD58F48ABA754FD39F6C9DAC /* libPods-citempTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-citempTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,7 +146,6 @@
 		9F51007A18BEE3CB0070104D /* citempTests */ = {
 			isa = PBXGroup;
 			children = (
-				9F51008018BEE3CB0070104D /* citempTests.m */,
 				9F51007B18BEE3CB0070104D /* Supporting Files */,
 				9F3DE7DD18BEFD7900624021 /* ViewControllerSpec.m */,
 			);
@@ -307,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F51008118BEE3CB0070104D /* citempTests.m in Sources */,
 				9F3DE7DE18BEFD7900624021 /* ViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
